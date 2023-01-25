@@ -1,0 +1,26 @@
+.transaction_history {
+    max-width: 870px;
+    width: 100%;
+    margin: 0 auto;
+	border: 1px solid #e4e9f0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.head {
+    background-color: #00bcd5;
+    color: #ffffff;
+}
+.head th {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+tbody {
+	color: #768696;
+}
+tbody tr:nth-child(even) {
+	background-color: #f3f6f9;;
+}
+tbody td {
+	padding: 10px 0;
+}
