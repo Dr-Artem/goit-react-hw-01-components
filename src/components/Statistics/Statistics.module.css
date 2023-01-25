@@ -20,8 +20,9 @@
     flex-direction: column;
     color: #ffffff;
     flex-basis: calc(100% / 4);
+	padding: 5px 0;
 }
 .label {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 5px;
 }

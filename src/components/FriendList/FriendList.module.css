@@ -1,0 +1,29 @@
+.friend_list {
+	max-width: 250px;
+		width: 100%;
+		margin: 0 auto;
+	margin-bottom: 50px;
+}
+.item {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	border: 1px solid #e4e9f0;
+	padding: 5px 10px;
+	border-radius: 2px;
+}
+.item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.true {
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	border-radius: 5px;
+}
+.false {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 5px;
+}

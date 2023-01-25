@@ -8,15 +8,11 @@ export const Statistics = ({ stats, title }) => {
 
             <ul className={styles.stat_list}>
                 {stats.map(stat => (
-                    <li
-                        style={{
+                    <li style={{
                             backgroundColor: `#${Math.floor(
                                 Math.random() * 16777215
                             ).toString(16)}`,
-                        }}
-                        className={styles.item}
-                        key={stat.id}
-                    >
+                        }} className={styles.item}key={stat.id}>
                         <span className={styles.label}>{stat.label}</span>
                         <span className={styles.percentage}>
                             {stat.percentage}%
